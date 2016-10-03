@@ -1,0 +1,165 @@
+
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+	margin:0;
+}
+
+.center-content {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.mdl-layout__header-row {
+	padding: 5px;
+}
+
+.mdl-layout-title, .mdl-card__title-text {
+	padding: 5px;
+}
+
+.mdl-card--list {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.mdl-card{
+	min-height: 90px;
+}
+
+.mdl-card__header{
+	min-height: 50px;
+}
+
+.mdl-card__header-row{
+	height: 60px;
+}
+
+.mdl-layout-row{
+	display: flex;
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.reply-textarea {
+	width: 100%;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.mdl-card--nopadding {
+	padding: 0;
+}
+
+.mdl-layout__header--minor {
+	padding: 0;
+	width: 100%;
+}
+
+.mdl-layout__header--minor .mdl-navigation__link {
+	color: black;
+}
+
+@media screen and (max-width: 600px){
+	.mdl-card__header-row{
+		height: 50px;
+		padding: 0;
+	}
+}
+
+.mdl-card__supporting-text{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.video-img {
+	width: 150px;
+}
+
+.video-link {
+	float: right;
+	margin-left: 10px;
+}
+
+.video-link-title{
+	display:block;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 150px;
+}
+
+@media screen and (max-width: 400px){
+	.video-img {
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.mdl-card__header-row{
+		height: 50px;
+		padding: 0;
+	}
+}
+
+button.google {
+    border: none;
+    background: no-repeat url( "../assets/Google/btn_google_signin_dark_normal_web.png" ) 0 0;
+    width: 191px;
+    height:46px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button.google:focus {
+    background: no-repeat url( "../assets/Google/btn_google_signin_dark_focus_web.png" ) 0 0;
+}
+
+button.google:disabled {
+    background: no-repeat url( "../assets/Google/btn_google_signin_dark_disabled_web.png" ) 0 0;
+}
+
+button.google:active {
+    background: no-repeat url( "../assets/Google/btn_google_signin_dark_pressed_web.png" ) 0 0;
+}
+
+.loading-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: lightgrey;
+	font-size: 40pt;
+	line-height: normal;
+}
+
+.large-loading {
+    color: lightgrey;
+    font-size: 60pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.avatar {
+  position:relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px){
+	.avatar{
+    	border-radius: 0;
+	}
+}

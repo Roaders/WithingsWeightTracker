@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "diagnostics": true
+  },
+  "files": [
+    "ts/app.ts"
+  ]
+}
