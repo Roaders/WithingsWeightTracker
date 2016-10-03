@@ -1,27 +1,29 @@
 {
-  "name": "YouTubeCommentator",
-  "version": "1.5.1",
-  "description": "A webpage to easily manage comments and replies on a youTubeChannel",
+  "name": "WithingsWeightTracker",
+  "version": "0.0.1",
+  "description": "An application to track weight loss against a target using a withings scale",
   "main": "index.html",
   "scripts": {
     "postversion": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Roaders/YouTubeCommentator.git"
+    "url": "https://github.com/Roaders/WithingsWeightTracker.git"
   },
   "keywords": [
     "typescript",
-    "youTube",
+    "withings",
     "rxjs"
   ],
   "author": "Giles Roadnight",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Roaders/YouTubeCommentator/issues"
+    "url": "https://github.com/Roaders/WithingsWeightTracker/issues"
   },
-  "homepage": "https://github.com/Roaders/YouTubeCommentator",
-  "dependencies": {},
+  "homepage": "https://github.com/Roaders/WithingsWeightTracker",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "devDependencies": {
     "gulp-uglify": "^1.5.3",
     "grunt": "^1.0.1",

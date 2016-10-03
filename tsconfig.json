@@ -6,6 +6,6 @@
     "diagnostics": true
   },
   "files": [
-    "ts/app.ts"
+	"index.ts"
   ]
 }

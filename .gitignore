@@ -5,3 +5,5 @@ app.js.map
 ts/**/*.js.map
 ts/**/*.js
 release/
+index.js
+*.map
