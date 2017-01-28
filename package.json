@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Roaders/WithingsWeightTracker",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.1"
   },
   "devDependencies": {
     "gulp-uglify": "^2.0.1",
